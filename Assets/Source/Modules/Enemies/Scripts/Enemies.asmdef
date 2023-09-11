@@ -1,11 +1,7 @@
 {
-    "name": "NameOfGame",
-    "rootNamespace": "NameOfGame",
-    "references": [
-        "GUID:d669b9ca9fe4d49ceae7db3d80d6555f",
-        "GUID:56cc95c02c07f4192abd6f227be628a2",
-        "GUID:7cb07fb239d7b4f35b919e0df56e4234"
-    ],
+    "name": "Enemies",
+    "rootNamespace": "Enemies",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
