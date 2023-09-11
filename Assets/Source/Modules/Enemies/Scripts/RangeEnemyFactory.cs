@@ -12,6 +12,10 @@ namespace Enemies.Source.Modules.Enemies.Scripts
         {
             Transform spawnPoint = _spawnPoints[_spawnPointIndex];
             _spawnPointIndex++;
+            if (_spawnPointIndex >= _spawnPoints.Length)
+            {
+                _spawnPointIndex = 0;
+            }
             return Instantiate(_enemy, spawnPoint.position, spawnPoint.rotation);
         }
     }

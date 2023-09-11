@@ -15,6 +15,7 @@ namespace NameOfGame.Source.Game.Scripts
         {
             _movementInput.Activate();
             _weaponInput.Activate();
+            _enemyFactory.StartSpawn();
         }
     }
 }
