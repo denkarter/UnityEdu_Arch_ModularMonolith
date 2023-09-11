@@ -1,10 +1,7 @@
 {
-    "name": "NameOfGame",
-    "rootNamespace": "NameOfGame",
-    "references": [
-        "GUID:d669b9ca9fe4d49ceae7db3d80d6555f",
-        "GUID:56cc95c02c07f4192abd6f227be628a2"
-    ],
+    "name": "Shooting",
+    "rootNamespace": "Shooting",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

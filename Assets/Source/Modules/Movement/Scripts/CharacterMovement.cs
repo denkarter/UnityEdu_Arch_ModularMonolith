@@ -8,7 +8,7 @@ namespace Movement.Source.Modules.Movement.Scripts
         
         internal void Move(Vector3 direction)
         {
-            transform.Translate(_speed * direction * Time.deltaTime);    
+            transform.Translate(_speed * Time.deltaTime * direction);    
         }
     }
 }
